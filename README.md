@@ -60,4 +60,7 @@ Setup:
 
     - RESTful (Representational Stat Transfer)
     - API (Application-programminig Interface)
+    
 
+Using { HashRouter }:
+    -HashRouter needs to be placed 
