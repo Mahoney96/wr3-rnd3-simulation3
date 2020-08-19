@@ -1,12 +1,18 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, {Component} from 'react';
 import './App.css';
+import './Components/Dashboard/Dashboard';
+import Nav from './Components/Nav/Nav';
+import Form from './Components/Form/Form';
+import Dashboard from './Components/Dashboard/Dashboard';
 
-function App() {
+class App extends z
   return (
     <div className="App">
-      <header className="App-header">
-      </header>
+    <Dashboard/>
+      <Form/>
+      <Nav/>
+      <Nav/>
+      <Nav/>
     </div>
   );
 }
