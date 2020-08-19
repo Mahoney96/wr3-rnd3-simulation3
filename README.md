@@ -1,11 +1,11 @@
 #### Wr3 Helo App Simulation
 
-- 
 
 #### Database
 
 - PostgresSQL
 - Massive (backend => req, res)
+    - massive handles connection to our Heroku database and server
 - Express ( need express when creating a RESTful Api)
 - Express-session (Handles creating user sessions/app-sessions in general)
 - bcrypt ( Makes us able to {Hash} our password)
@@ -19,9 +19,16 @@
 Dependencies:
     - express
     - axios (req, res)
-    - massive (handles connection to our Heroku database and server)
-    - React 
+    - React-redux
+    - redux-promise-middleware
     - react-router-DOM
+
+    File Structure: 
+    - src/
+     app.js
+
+
+Looking at the Helo visuals what components will be needed to be built? (Provided but what is the funcationality involved?)
 
 File Structure:
 
